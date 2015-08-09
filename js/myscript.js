@@ -1,7 +1,16 @@
+$(document).ready(function() {
+
+
+$('#fizzbuzz').on("click", function() {
+
 for (var i=1; i <= 100; i++)
 {
     if (i % 15 == 0)
-        console.log("FizzBuzz");
+    	document.write("FizzBuzz");
+
     else
-        console.log(i);
-}
+    	document.write(i);
+	}
+});
+
+});
